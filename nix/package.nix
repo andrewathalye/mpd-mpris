@@ -2,7 +2,7 @@
 buildGoModule {
   name = "mpd-mpris";
   src = ./..;
-  vendorSha256 = "sha256-HCDJrp9WFB1z+FnYpOI5e/AojtdnpN2ZNtgGVaH/v/Q=";
+  vendorHash = "sha256-HCDJrp9WFB1z+FnYpOI5e/AojtdnpN2ZNtgGVaH/v/Q=";
 
   postInstall = ''
     mkdir -p $out/lib/systemd/user
